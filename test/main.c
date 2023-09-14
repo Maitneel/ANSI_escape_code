@@ -4,8 +4,9 @@
 #include "test.h"
 
 int main() {
-    test_fore_ground();    
+    test_fore_ground(NULL);    
     test_back_ground();
+    test_all_conbination();
 
     printf("%s%s", F_RESTET, B_RESTET);
 
