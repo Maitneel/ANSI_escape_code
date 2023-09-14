@@ -4,10 +4,10 @@
 
 #define print(COLOR) printf("%s %16s ", COLOR, #COLOR)
 
-void test_fore_ground(char *arg_back_ground) {
-    const char *back_ground_color = (arg_back_ground == NULL ? B_RESTET : arg_back_ground);
+void test_fore_ground(char *arg_option) {
+    const char *option = (arg_option == NULL ? B_RESTET : arg_option);
 
-    printf("%s",back_ground_color);
+    printf("%s",option);
     print(F_BLACK);
     print(F_RED);
     print(F_GREEN);
@@ -16,9 +16,9 @@ void test_fore_ground(char *arg_back_ground) {
     print(F_MAGENTA);
     print(F_CYAN);
     print(F_WHITE);
-    printf("%s%s\n", F_RESTET, B_RESTET);
+    printf("%s%s%s\n", F_RESTET, B_RESTET, GR_RESET);
 
-    printf("%s",back_ground_color);
+    printf("%s",option);
     print(F_BRIGHT_BLACK);
     print(F_BRIGHT_RED);
     print(F_BRIGHT_GREEN);
@@ -27,7 +27,7 @@ void test_fore_ground(char *arg_back_ground) {
     print(F_BRIGHT_MAGENTA);
     print(F_BRIGHT_CYAN);
     print(F_BRIGHT_WHIT);
-    printf("%s%s\n", F_RESTET, B_RESTET);
+    printf("%s%s%s\n", F_RESTET, B_RESTET, GR_RESET);
 }
 
 void test_back_ground() {
