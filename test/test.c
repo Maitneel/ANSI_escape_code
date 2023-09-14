@@ -13,7 +13,7 @@ void test_fore_ground() {
     print(F_MAGENTA);
     print(F_CYAN);
     print(F_WHITE);
-    printf("\n");
+    printf("%s\n", F_RESTET);
 
     print(F_BRIGHT_BLACK);
     print(F_BRIGHT_RED);
@@ -23,7 +23,7 @@ void test_fore_ground() {
     print(F_BRIGHT_MAGENTA);
     print(F_BRIGHT_CYAN);
     print(F_BRIGHT_WHIT);
-    printf("\n");
+    printf("%s\n", F_RESTET);
 }
 
 void test_back_ground() {
@@ -35,7 +35,7 @@ void test_back_ground() {
     print(B_MAGENTA);
     print(B_CYAN);
     print(B_WHITE);
-    printf("\n");
+    printf("%s\n", B_RESTET);
 
     print(B_BRIGHT_BLACK);
     print(B_BRIGHT_RED);
@@ -45,5 +45,5 @@ void test_back_ground() {
     print(B_BRIGHT_MAGENTA);
     print(B_BRIGHT_CYAN);
     print(B_BRIGHT_WHIT);
-    printf("\n");
+    printf("%s\n", B_RESTET);
 }
