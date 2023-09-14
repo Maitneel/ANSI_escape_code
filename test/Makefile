@@ -1,17 +1,20 @@
 NAME := a.out
 CC  := cc
 
-SRCS := test.c \
+SRCS := main.c \
+		test.c \
 
 OBJS := ${SRCS:%.c=%.o}
+
+INCLUDE := ..
 
 all : ${NAME}
 
 ${NAME} : ${OBJS}
-	${CC} ${OBJS} -o ${NAME}
+	${CC} ${OBJS} -I ${INCLUDE} -o ${NAME}
 
 %.o : %.c
-	${CC} -c $^ -o $@
+	${CC} -c -I ${INCLUDE} $^ -o $@
 
 clean : 
 	rm -f ${OBJS}

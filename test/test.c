@@ -4,7 +4,7 @@
 
 #define print(COLOR) printf("%s %16s ", COLOR, #COLOR)
 
-int main() {
+void test_fore_ground() {
     print(F_BLACK);
     print(F_RED);
     print(F_GREEN);
@@ -23,8 +23,5 @@ int main() {
     print(F_BRIGHT_MAGENTA);
     print(F_BRIGHT_CYAN);
     print(F_BRIGHT_WHIT);
-
-
     printf("\n");
-    return 0;
 }
