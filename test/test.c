@@ -25,3 +25,25 @@ void test_fore_ground() {
     print(F_BRIGHT_WHIT);
     printf("\n");
 }
+
+void test_back_ground() {
+    print(B_BLACK);
+    print(B_RED);
+    print(B_GREEN);
+    print(B_YELLOW);
+    print(B_BLUE);
+    print(B_MAGENTA);
+    print(B_CYAN);
+    print(B_WHITE);
+    printf("\n");
+
+    print(B_BRIGHT_BLACK);
+    print(B_BRIGHT_RED);
+    print(B_BRIGHT_GREEN);
+    print(B_BRIGHT_YELLOW);
+    print(B_BRIGHT_BLUE);
+    print(B_BRIGHT_MAGENTA);
+    print(B_BRIGHT_CYAN);
+    print(B_BRIGHT_WHIT);
+    printf("\n");
+}

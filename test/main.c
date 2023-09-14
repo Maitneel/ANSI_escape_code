@@ -5,6 +5,8 @@
 
 int main() {
     test_fore_ground();    
+    test_back_ground();
 
     printf("%s%s", F_RESTET, B_RESTET);
+
 }
