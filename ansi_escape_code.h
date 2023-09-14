@@ -47,4 +47,19 @@
 
 #define B_RESTET				"\033[49m"
 
+/*******************************************/
+/*            graphic rendition            */
+/*******************************************/
+
+#define GR_RESET			    "\033[0m"
+#define GR_BOLD 			    "\033[1m"
+#define GR_FAINT			    "\033[2m"
+#define GR_ITALIC			    "\033[3m"
+#define GR_UNDER_LINE			"\033[4m"
+#define GR_BLINK		    	"\033[5m"
+#define GR_RAPID_BLINK			"\033[6m"
+#define GR_REVERSE			    "\033[7m"
+#define GR_CONCEAL			    "\033[8m"
+
+
 #endif

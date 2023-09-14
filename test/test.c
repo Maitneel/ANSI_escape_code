@@ -72,3 +72,16 @@ void test_all_conbination() {
     test_fore_ground(B_BRIGHT_WHIT);
 
 }
+
+
+void test_graphic_rendition() {
+    test_fore_ground(GR_RESET);
+    test_fore_ground(GR_BOLD);
+    test_fore_ground(GR_FAINT);
+    test_fore_ground(GR_ITALIC);
+    test_fore_ground(GR_UNDER_LINE);
+    test_fore_ground(GR_BLINK);
+    test_fore_ground(GR_RAPID_BLINK);
+    test_fore_ground(GR_REVERSE);
+    test_fore_ground(GR_CONCEAL);
+}
