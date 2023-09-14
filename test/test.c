@@ -16,7 +16,7 @@ void test_fore_ground(char *arg_option) {
     print(F_MAGENTA);
     print(F_CYAN);
     print(F_WHITE);
-    printf("%s%s%s\n", F_RESTET, B_RESTET, GR_RESET);
+    printf("%s\n", ALL_RESET);
 
     printf("%s",option);
     print(F_BRIGHT_BLACK);
@@ -27,7 +27,7 @@ void test_fore_ground(char *arg_option) {
     print(F_BRIGHT_MAGENTA);
     print(F_BRIGHT_CYAN);
     print(F_BRIGHT_WHIT);
-    printf("%s%s%s\n", F_RESTET, B_RESTET, GR_RESET);
+    printf("%s\n", ALL_RESET);
 }
 
 void test_back_ground() {
@@ -75,7 +75,6 @@ void test_all_conbination() {
 
 
 void test_graphic_rendition() {
-    test_fore_ground(GR_RESET);
     test_fore_ground(GR_BOLD);
     test_fore_ground(GR_FAINT);
     test_fore_ground(GR_ITALIC);

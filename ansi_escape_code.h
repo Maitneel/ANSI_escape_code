@@ -51,7 +51,6 @@
 /*            graphic rendition            */
 /*******************************************/
 
-#define GR_RESET			    "\033[0m"
 #define GR_BOLD 			    "\033[1m"
 #define GR_FAINT			    "\033[2m"
 #define GR_ITALIC			    "\033[3m"
@@ -61,5 +60,12 @@
 #define GR_REVERSE			    "\033[7m"
 #define GR_CONCEAL			    "\033[8m"
 
+
+/*******************************************/
+/*                  reset                  */
+/*******************************************/
+
+#define RESET_COLOR             "\033[39;49m"
+#define ALL_RESET               "\033[0m"
 
 #endif
