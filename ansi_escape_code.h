@@ -20,7 +20,7 @@
 #define F_BRIGHT_BLUE			"\033[94m"
 #define F_BRIGHT_MAGENTA		"\033[95m"
 #define F_BRIGHT_CYAN			"\033[96m"
-#define F_BRIGHT_WHIT			"\033[97m"
+#define F_BRIGHT_WHITE		"\033[97m"
 
 #define F_RESTET				"\033[39m"
 
